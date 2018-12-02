@@ -1,26 +1,3 @@
-// potencia.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-//
-
-#include "pch.h"
-#include <iostream>
-#include <math.h>
-
-int main()
-{
-	int b, e,p;
-	
-	printf("Entre com a base da potencia:");
-	scanf_s("%i",&b);
-		printf("Entre com o exponte:");
-		scanf_s("%i",&e);
-
-		p = pow(b,e);
-		printf("Resultado= %i",p);
-}
-
-// Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
-// Depurar programa: F5 ou menu Depurar > Iniciar Depuração
-
 // Dicas para Começar: 
 //   1. Use a janela do Gerenciador de Soluções para adicionar/gerenciar arquivos
 //   2. Use a janela do Team Explorer para conectar-se ao controle do código-fonte
@@ -28,3 +5,10 @@ int main()
 //   4. Use a janela Lista de Erros para exibir erros
 //   5. Ir Para o Projeto > Adicionar Novo Item para criar novos arquivos de código, ou Projeto > Adicionar Item Existente para adicionar arquivos de código existentes ao projeto
 //   6. No futuro, para abrir este projeto novamente, vá para Arquivo > Abrir > Projeto e selecione o arquivo. sln
+
+#ifndef PCH_H
+#define PCH_H
+
+// TODO: adicione cabeçalhos que você deseja pré-compilar aqui
+
+#endif //PCH_H

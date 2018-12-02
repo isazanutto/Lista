@@ -1,21 +1,12 @@
-// potencia.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
+// quadrado.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
 //
 
 #include "pch.h"
 #include <iostream>
-#include <math.h>
 
 int main()
 {
-	int b, e,p;
-	
-	printf("Entre com a base da potencia:");
-	scanf_s("%i",&b);
-		printf("Entre com o exponte:");
-		scanf_s("%i",&e);
-
-		p = pow(b,e);
-		printf("Resultado= %i",p);
+	printf("XXXXX\nX   X\nX   X\nX   X\nXXXXX");
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
