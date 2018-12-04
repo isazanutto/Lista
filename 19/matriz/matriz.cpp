@@ -7,21 +7,7 @@
 
 int main()
 {
-	int matriz[3][3], i, j,a;
-	int x;
-	printf("Entre com os valores da matriz");
-
-	for (i = 0; i < 3; i++)
-		for (j = 0; j < 3; j++)
-		{
-			printf("\nElemento[%i][%i] = ", i, j);
-			scanf_s("%i", &matriz[i][j]);
-		}
-
-	printf("Entre com o numero que deve ser multiplicado:");
-	scanf_s("%i",&a);
-	x = (matriz[0][0] + matriz[0][1] + matriz[0][2])*a;
-	printf("Resultado da multiplicao %i",matriz);
+	
 }
 
 
